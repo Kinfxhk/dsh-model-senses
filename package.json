@@ -1,0 +1,31 @@
+{
+  "name": "@local/model-senses",
+  "version": "1.1.1",
+  "private": true,
+  "license": "MIT",
+  "description": "Lets every agent see images and search through the deployment default model.",
+  "type": "module",
+  "engines": {
+    "dsh": ">=0.2.1-rc.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kinfxhk/dsh-model-senses.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

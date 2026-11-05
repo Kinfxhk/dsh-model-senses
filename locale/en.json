@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Senses",
+    "description": "Sees and searches through whichever API is the live default, and switches with it."
+  }
+}

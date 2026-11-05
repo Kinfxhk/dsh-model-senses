@@ -1,0 +1,3 @@
+- insert:
+    - id: model-senses
+      name: '@local/model-senses'
